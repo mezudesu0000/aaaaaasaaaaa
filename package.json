@@ -1,7 +1,7 @@
 {
   "name": "discord-selfbot-video-stream",
   "version": "1.0.0",
-  "description": "Discord selfbot - VC join + YouTube screen share + ping + めいく quote reply",
+  "description": "Discord selfbot: VC join + YouTube screen share + ping + めいく quote",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -9,7 +9,7 @@
   "dependencies": {
     "discord.js-selfbot-v13": "^3.7.1",
     "@dank074/discord-video-stream": "^5.0.2",
-    "ytdl-core": "^4.14.4",
+    "@distube/ytdl-core": "^4.16.12",
     "express": "^4.19.2",
     "ffmpeg-static": "^5.2.0"
   },
